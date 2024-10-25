@@ -6,6 +6,57 @@
     <link rel="stylesheet" href="styles.css">
     <title>Interactive Navigation Menu</title>
 </head>
+<style>
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #333;
+    transition: background-color 0.3s;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 15px 20px;
+    display: block;
+    transition: color 0.3s;
+}
+
+nav.scrolled {
+    background-color: #555; /* Change background color on scroll */
+}
+
+nav ul li a:hover {
+    color: #ffcc00; /* Change font color on hover */
+}
+
+.content {
+    padding-top: 60px; /* Space for fixed navbar */
+}
+
+.class {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+</style>
 <body>
     <nav id="navbar">
         <ul>
@@ -18,8 +69,18 @@
 
     <div class="content">
         <h1>Welcome to ProDigy Infotech</h1>
-        <p>Hello I Am Madhav Goswami.</p>
-        <div style="height: 2000px;"></div> <!-- Just to enable scrolling -->
+        <p>Scroll down to see the BLOG!.
+            
+            <b>Hii i am Madhav Goswami
+                Currently pursuing Btech CSE at Ghaziabad.
+                <br>
+                i am interested to show that interactivity on navigation menu about the Blog page.
+            </br>
+            </b>
+            <img src="c:\Users\admin\Downloads\440676598_411285385153476_1180984612957758973_n.jpg"class="centre"
+            width="300"height="300">
+            </p>
+        <div style="height: 2000px;"></div>
     </div>
 
     <script src="script.js"></script>

@@ -1,3 +1,5 @@
+/*<style>
+*/
 body {
     margin: 0;
     font-family: Arial, sans-serif;
@@ -20,6 +22,7 @@ nav ul {
     justify-content: space-around;
 }
 
+
 nav ul li a {
     color: white;
     text-decoration: none;
@@ -29,13 +32,25 @@ nav ul li a {
 }
 
 nav.scrolled {
-    background-color: #555; /* Change background color on scroll */
+    background-color: #555; 
+    /* Change background color on scroll */
 }
 
 nav ul li a:hover {
-    color: #ffcc00; /* Change font color on hover */
+    color: #ffcc00;
+     /* Change font color on hover */
 }
 
 .content {
     padding-top: 60px; /* Space for fixed navbar */
 }
+
+.class {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+/*</style>
+<body>*/
